@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Talentio Course List</title>
+
+    <link rel="icon" type="image/icon" href="talentioicon5.jpg">
+
+</head>
+
+<style>
+
+    div.container {
+  border:10px solid rgb(138, 122, 140);
+  background-color: rgba(232, 221, 221, 0.881);
+  border-radius: 30px;
+  height:auto;
+  width:650px;
+  overflow:hidden;
+  position:absolute;
+  right:0px;         /* used for .container to position right*/
+  margin-right:100px;
+  display:inline-block;
+  
+}
+
+.dl{
+    text-align: center;
+    border: 4px solid rgb(10, 16, 66);
+    margin:40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c9aac5a6;
+    border-radius: 20px;
+    overflow:hidden;
+}
+     
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+  border: 2px solid black;
+  margin-left:10px;
+  padding:50px;
+  padding-left: 25px;
+  background-color:#c9acc5a6 ;
+  border-radius: 5px;
+}
+
+ol.myol {
+  display: inline-block;
+  text-align: left;
+  border: 2px solid black;
+  margin-left:10px;
+  padding:50px;
+  padding-left: 25px;
+  background-color:#c9aac5a6 ;
+  border-radius: 5px;
+}
+
+    body{
+        float: left;
+        background-image: url("talentio.jpg");
+        color:rgb(0, 0, 0);
+        margin:65px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+ 
+        
+    }
+
+    h1{
+        text-align:center;
+        color:rgb(0, 0, 0);
+        text-decoration:underline;
+        position:absolute;
+        right:0px;
+        margin-right:150px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:40px;
+        
+    }
+
+    h2{
+        text-align:left;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+
+    img{
+        float:left;
+        margin: 0 15px 0 0;
+        width:500px;
+        height:500px;
+       
+    }
+ 
+
+</style>
+
+<body>
+    <h1>TALENTIO's List Of Course Items</h1><br><br><br><br><br>
+    
+<div class="bg"></div>
+    <div class="container">
+
+        <h2>Courses offered:</h2>
+
+    <ul class= "myUL" type="circle">  <!--used <circle> attribute-->
+        <li>Frontend Develpoment</li>
+        <li>Backend Develpoment</li>
+        <li>FullStack Developer</li>
+        <li>Data Science Analyst</li>
+        <li>AI</li>
+        
+    </ul>
+
+    <h2>The Languages required :</h2>
+
+    <ol class="myol" start="7" reversed>  <!-- used reverse() operation and <start> attribute-->
+        <li>C</li>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>JAVASCRIPT</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+    </ol>
+
+    <h2>Definitons :</h2>
+
+    <dl class="dl" clear="left">
+        
+        <dt><b>C</b></dt>
+
+        <dd> CSS (Cascading Style Sheets) is primarily used to create an aesthetically pleasing design -- specifically the
+        color- and style-based code added to HTML structural elements. </dd>
+    <br>
+
+        <dt><b>JAVA</b></dt>
+
+        <dd> This general-purpose language is
+        primarily used in back end web development, and can be applied to a wide variety of different software types. </dd>
+        <br>
+
+        <dt><b>PYTHON</b></dt>
+
+        <dd> Python is one of the leading programming languages for modern back end web development. The language is favored not only for its versatility, but also for its relative
+        simplicity.</dd><br>
+
+        <dt><b>JAVASCRIPT</b></dt>
+
+        <dd> Like Python, JavaScript is regarded for its dynamic array of uses,these generally apply to the
+        depth and quality of a web page. Without JavaScript, sites would be more static, less
+        animated, and ultimately less engaging.</dd>
+        <br>
+
+        <dt><b>HTML</b></dt>
+
+        <dd> (HyperText Markup Language)
+        refers to the ways in which web pages are linked together and is primarily used to inform a web browser of how to
+        display a web page’s elements via tags.</dd>
+        <br>
+
+        <dt><b>CSS</b></dt>
+
+        <dd>CSS (Cascading Style Sheets)mis primarily used to create an aesthetically
+        pleasing design — specifically the color- and style-based code added to HTML structural elements.</dd>
+        <br>
+
+        <dt><b>SQL</b></dt>
+
+        <dd> (Structured Query Language) is mainly used to manage and update records, and access and change databases </dd><br>
+    </div>
+    </dl>
+</body>
+</html>
